@@ -1,8 +1,8 @@
 "use client";
 
 import styles from "./page.module.css";
-import { fetchTodos } from "@/redux/reducers/todoService";
 import { useAppSelector, useAppDispatch, RootState } from "../redux/store";
+import { fetchTodos } from "@/redux/reducers/todoService";
 import { resetTodos } from "@/redux/reducers/todoReducer";
 
 export default function Home() {
